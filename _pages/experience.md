@@ -7,6 +7,7 @@ title: Professional Experience
 ## Aceso Analytics
 ### Oslo, Norway
 **February 2022 - Present**
+
 **<span style="text-align:left;">Data Scientist and Consultant</span>**
 
  - Developed modules for on-device **audio scene recognition** for edge devices with optimizations for least memory footprint to emphasize data privacy and client security thereby restricting the memory consumption to 1MB flash memory.
@@ -15,9 +16,12 @@ title: Professional Experience
  - Managed 2 external teams from the United States and Pakistan with a total of 7 team members for the development of firmware for Sensortile box through sprint planning.
  - Designed and tested APIs for audio analysis to provide live monitoring for organization to conveniantly summarize information.
 
+
  ## Neurog
  ### Islamabad, Pakistan
+
  **January 2022 - March 2022**
+
  **<span style="text-align:left;">Data Scientist</span>**
 
 - Performed exploratory data analysis on Twitter, Youtube, and Opensea to identify correlations between fluctuating NFT prices and social media influence; verifying Pearson’s Coefficient  of +0.579 between retweets and collection prices; and +0.343 between youtube views, categorized by tags, and metaverse collections like Decentraland and Sandbox.
