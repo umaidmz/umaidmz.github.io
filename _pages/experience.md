@@ -17,12 +17,12 @@ title: Professional Experience
  - Designed and tested APIs for audio analysis to provide live monitoring for organization to conveniantly summarize information.
 
 
- ## Neurog
- ### Islamabad, Pakistan
+## Neurog
+### Islamabad, Pakistan
 
- **January 2022 - March 2022**
+**January 2022 - March 2022**
 
- **<span style="text-align:left;">Data Scientist</span>**
+**<span style="text-align:left;">Data Scientist</span>**
 
 - Performed exploratory data analysis on Twitter, Youtube, and Opensea to identify correlations between fluctuating NFT prices and social media influence; verifying Pearson’s Coefficient  of +0.579 between retweets and collection prices; and +0.343 between youtube views, categorized by tags, and metaverse collections like Decentraland and Sandbox.
 - Analyzed time series data of NFT events to recognize seasonal patterns for successful and transfer transactions using SARIMAX algorithm resulting in 87% accuracy using cryptocurrency rates as exogenous variables.
