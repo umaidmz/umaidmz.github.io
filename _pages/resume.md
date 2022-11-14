@@ -1,11 +1,7 @@
 ---
 layout: page
 permalink: /resume/
-title: Resume/ CV
 ---
-
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
-# Richard Hendricks
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
@@ -20,7 +16,7 @@ CEO and Software Engineer with knowledge of applied information theory,
 including optimizing lossless compression schema of both the length-limited and
 adaptive variants.
 
-## Experience
+<h2 align="left">## Experience</h2>
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
