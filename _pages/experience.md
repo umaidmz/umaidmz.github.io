@@ -11,7 +11,7 @@ title: Professional Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span style="text-align:left;">CEO/President, Pied Piper</span> <span style="text-align:right;">Dec 2013 -- Dec 2014</span>
+<span style="text-align:left;">CEO/President, Pied Piper</span> <span style="text-align:right;">Dec 2013 -- Dec 2014</span>
 
 Pied Piper is a multi-platform technology based on a proprietary universal
 compression algorithm that has consistently fielded high Weisman Scores™ that
