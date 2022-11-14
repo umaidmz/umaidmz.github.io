@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /education/
-title: Professional Experience
+title: Education
 ---
 
 ## University of Waterloo
@@ -65,3 +65,33 @@ title: Professional Experience
 | Database Systems | Miss Ayesha Asif | B+ |
 | Linear Algebra | Dr. Hina Munir | B+ |
 | Entrepreneurship | Mr. Majid Maqbool | B+ |
+
+## Roots Millennium School
+### Islamabad, Pakistan
+**September 2015 - June 2017**
+
+**<span style="text-align:left;">Cambridge International Examination Advanced Level</span>**
+
+| Courses | Instructor | Grades |
+| ------- | ------ | ------|
+| Physics | Mr Yasir Mehmood, Mr. Umair Qureshi | A |
+| Mathematics | Mr. Usman Sahibzada, Mr. Farooq Abbasi | B |
+| Chemistry | Mr. Shaukat Abbasi | B |
+
+## Cadet College Hassanabdal
+### Islamabad, Pakistan
+**April 2012 - June 2015**
+
+**<span style="text-align:left;">Cambridge International Examination Ordinary Level</span>**
+
+| Courses | Instructor | Grades |
+| ------- | ------ | ------|
+| Physics | Mr. Waseem Iqbal | A+ |
+| Mathematics | Mr. Muazzam Ali Saqib| A+ |
+| Chemistry | Mr. Tahir Javed, Mr. Ahmed Nadeem Anwar | A+ |
+| Biology | Mr. Ashiq Hussain | A+ |
+| Combined Sciences | - | A+ |
+| Islamiat | Mr. Atta Ur Rehman | A |
+| Pakistan Studies | Mr. Noor Ul Islam | A |
+| Urdu | Mr. Shahzad Qaisar | A |
+| English | Mr. Shaukat Abbasi | A |
