@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /experience/
+permalink: /education/
 title: Professional Experience
 ---
 
