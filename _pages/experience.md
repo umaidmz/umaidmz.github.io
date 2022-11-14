@@ -8,7 +8,7 @@ title: Professional Experience
 ### Oslo, Norway
 **February 2022 - Present**
 
-**<span style="text-align:left;">Data Scientist and Consultant</span>**
+**<span style="text-align:left;">Machine Learning Engineer</span>**
 
  - Developed modules for on-device **audio scene recognition** for edge devices with optimizations for least memory footprint to emphasize data privacy and client security thereby restricting the memory consumption to 1MB flash memory.
  - Implemented end-to-end **data pipeline** by introducing data acquisition protocols and creating a lightweight architecture with 97% accuracy and 10% false positives on fine grained classes
