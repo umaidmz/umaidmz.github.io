@@ -31,11 +31,17 @@ title: Professional Experience
 ## Turkish Aerospace Industries
 ### Ankara, Turkey
 **August 2020 - September 2020**
+
+ **<span style="text-align:left;">Software Engineer Intern</span>**
+
 - Programmed a communication software for seamless transfer of binary files from ground computer to in-building satellite server, reducing redundant manual input of firmware files and improving work efficiency by 40%.
 - Designed a novel method to prevent traffic congestion on server, developed it into a TCP library with consistent documentation allowing future contributors to easily integrate more functionalities.
 
 ## Telenor
 ### Islamabad, Pakistan
 **June 2020 - August 2020**
+
+ **<span style="text-align:left;">Data Engineer Intern</span>**
+
 - Recognized usage patterns for mobile network’s gateway data between time and package activation, thereby optimizing the network packages to improve customer experience and maximize company revenue by 1.5% for July 2020.
 - Visualized overlapping processing units at gateways to provide an automated solution for the operation team; improving the work efficiency by 32% through immediate identification of congested networks and resource reallocation.
