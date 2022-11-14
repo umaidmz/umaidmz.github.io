@@ -16,7 +16,7 @@ CEO and Software Engineer with knowledge of applied information theory,
 including optimizing lossless compression schema of both the length-limited and
 adaptive variants.
 
-<h2 align="left">## Experience</h2>
+<h2 style="text-align: center;">Experience</h2>
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
