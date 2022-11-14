@@ -1,26 +1,17 @@
 ---
 layout: page
-permalink: /resume/
+permalink: /experience/
+title: Professional Experience
 ---
 
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
-- <richard.hendriks@mail.com>
-- (912) 555-4321
-- [richardhendricks.example.com](http://richardhendricks.example.com)
-- San Francisco, CA
 
-<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
-CEO and Software Engineer with knowledge of applied information theory,
-including optimizing lossless compression schema of both the length-limited and
-adaptive variants.
 
-<h2 align="left">Experience</h2>
+
+## Aceso Analytics
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>CEO/President, Pied Piper</span> <span>Dec 2013 -- Dec 2014</span>
+### <span style="text-align:left;">CEO/President, Pied Piper</span> <span style="text-align:right;">Dec 2013 -- Dec 2014</span>
 
 Pied Piper is a multi-platform technology based on a proprietary universal
 compression algorithm that has consistently fielded high Weisman Scores™ that
