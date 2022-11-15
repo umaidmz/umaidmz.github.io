@@ -70,6 +70,7 @@ title: Education
 ### Islamabad, Pakistan
 **September 2015 - June 2017**
 
+**<span style="text-align:left;">High School</span>**
 **<span style="text-align:left;">Cambridge International Examination Advanced Level</span>**
 
 | Courses | Instructor | Grades |
@@ -82,6 +83,7 @@ title: Education
 ### Islamabad, Pakistan
 **April 2012 - June 2015**
 
+**<span style="text-align:left;">Secondary School</span>**
 **<span style="text-align:left;">Cambridge International Examination Ordinary Level</span>**
 
 | Courses | Instructor | Grades |
