@@ -1,7 +1,7 @@
 ---
 layout: post
-title: All the way from Canada to Pakistan my journey.
-categories: Wedding
+title: From Canada with Love
+categories: [Wedding, Pakistan]
 ---
 
 I left for Pakistan on 29th November at 10:30 AM for my flight at 3:35 PM. engulfed in confusion and anxiety, I was mostly worried about all the chocolated Im travelling with, 3 new smart watches and eventually if Marium's iPhone will reach on time and safely to Pakistan from Mohib. Qandeel Bhai dropped me at the airport at 11:00 AM and I was quickly processed and checked in for the flight. I reached the departure gate at 11:30 AM and it was at this moment I realized I was way too early. Nevertheless, I had to do something that I despise: writing a statement of purpose. Since it was last day for Marium's application, I had to put up a skeleton that she had to complete and she did it way too good.
@@ -10,6 +10,6 @@ Eventually, my flight departed on time and I reached montreal, sat in National B
 
 I bought some cool stuff from Qatar Duty Free for free because I accumulate points and that was great and I boarded the last flight to Islamabad and entered Pakistan. So I immediatly opened my bags and distributed everything. I slept at 4:30 AM and woke up at 9:00 AM. I booked an appointment with the massage centre in Islamabad Club and went there at 10:00 AM and also had my breakfast. Afterwards, I came home and left for some shopping with my mom. Just when I reached G-10 for some clothes, Baba asked for the car and we went to pick him up which took some and then we went to Dera for Moeed's Aqeeqa Venue and then to Centaurus where I have decided to buy Bareeze Waistcoat. When I came home, Marium's Ami came and dropped some stack for nikah dress. (50000 pkr ;)) But the envelope was really cute aand a memento. Here have a look at it.
 
-<img src="../images/nikah_dress_envelope.jpg" alt="drawing"/>
+<img src="../images/nikah_dress_envelope.png" alt="drawing"/>
 
 So, Im glad that its finally starting and Im really excited about it. I just hope everything goes well. 
