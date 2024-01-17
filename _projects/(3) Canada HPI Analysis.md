@@ -5,7 +5,7 @@ image: /assets/images/hpi.png
 description: This project analyzes Canada’s housing crisis, merging StatCan, CPI HPI, and Energy Prices data. Additional, in this I conducted advanced time series analysis (AR modeling, Seasonal Decomposition), enhancing forecasting accuracy with Self Attention techniques, demonstrating data integration and innovative analytical expertise
 ---
 
-<h3>Canada Housing Crises Analysis and Forecasting</h3>
+<h2>Canada Housing Crises Analysis and Forecasting</h2>
 
 The Canadian economy is characterized by its resilience and diversity, and key economic indicators such as the Housing Price Index (HPI), Consumer Price Index (CPI), and energy prices play pivotal roles in shaping its trajectory. This survey paper embarks on a comprehensive exploration of time series analysis speciﬁc to Canada, focusing on HPI, CPI, and energy prices. It serves as a valuable resource for those seeking to comprehend the dynamics of housing prices in the Canadian context.
 
@@ -19,7 +19,7 @@ In summary, this survey paper acts as an educational tool and reference guide ta
 those interested in analyzing HPI, CPI, and energy price time series data speciﬁc to Canada. By combining foundational time series analysis principles with real-world insights into the Canadian economy, we endeavor to equip readers with the knowledge and tools needed to navigate the dynamic realm of Canadian housing price analysis.
 
 <div>
-    <h2>PDF Preview</h2>
+    <h3>PDF Preview</h3>
     <iframe src="/assets/files/Canada_HPI.pdf" style="border: none;"></iframe>
-    <p><a href="/assets/files/Canada_HPI.pdf" download="YourFileName.pdf">Download PDF</a></p>
+    <p><a href="/assets/files/Canada_HPI.pdf" download="Canada_HPI_Umaid.pdf">Download PDF</a></p>
 </div>
