@@ -21,5 +21,5 @@ those interested in analyzing HPI, CPI, and energy price time series data speciï
 <div>
     <h3>PDF Preview</h3>
     <iframe src="/assets/files/Canada_HPI.pdf" style="border: none;"></iframe>
-    <p><a href="/assets/files/Canada_HPI.pdf" download="Canada_HPI_Umaid.pdf">Download PDF</a></p>
+    <p><a href="/assets/files/Canada_HPI.pdf" width=auto height=auto download="Canada_HPI_Umaid.pdf">Download PDF</a></p>
 </div>
