@@ -1,6 +1,6 @@
 - title: Master's in Data Science, Univeristy of Waterloo 
-  from: 2021
-  to: 2023
+  from: Sept 2021
+  to: Dec 2023
   description: I hold a Master's degree in Data Science and Artificial Intelligence characterized by a rigorous curriculum encompassing a wide range of subjects including machine learning,
                deep learning, statistics, data visualizations, exploratory data analysis, and big data. In addition to the theoretical knowledge, 
                the program also included a cooperative education component, allowing for practical, hands-on experience.
@@ -9,55 +9,21 @@
               This role provided me with invaluable real-world experience and a deeper understanding of the practical applications of machine learning 
               in the tech industry. More details about my experiences and contributions at Huawei can be found in the following section.
 
-- title: Bachelors's Student, National University of Science and Technology
-  from: 2017
-  to: 2021
-  description: I completed my bachelor's degree in Computer Science from the National University of Sciences and Technology (NUST) in Pakistan. 
-              This academic journey marked the beginning of my deep dive into the expansive world of computing. It was here that I developed a keen interest in a variety of fields such as computer vision, databases, and software engineering. This program not only provided me with a solid foundation
-               in theoretical concepts but also equipped me with practical skills and knowledge, setting the stage for my 
-               future endeavors in the dynamic and ever-evolving field of computer science.
-
-- title: Robotics Engineer Intern, RISE Lab
-  from: 2018
-  to: 2019
-  description: I completed my bachelor's degree in Computer Science from the National University of Sciences and Technology (NUST) in Pakistan. 
-              This academic journey marked the beginning of my deep dive into the expansive world of computing. It was here that I developed a keen interest in a variety of fields such as computer vision, databases, and software engineering. This program not only provided me with a solid foundation
-               in theoretical concepts but also equipped me with practical skills and knowledge, setting the stage for my 
-               future endeavors in the dynamic and ever-evolving field of computer science.
-
-- title: Data Engineer Intern, Telenor
-  from: 2020
-  to: 2020
-  description: Utilized Tableau to visualize and interpret mobile network gateway data, uncovering usage patterns related to package activation timing. 
-              This analysis drove the optimization of network packages, resulting in a 1.5% revenue increase for the company in July 2020. 
-              Designed an automated solution that visualizes overlapping processing units at gateways,resulting in a remarkable 32% improvement in work efficiency, 
-              enabling the immediate detection of congested networks and facilitating resource reallocation to enhance operational effectiveness and overall performance
-
-- title: Software Engineer Intern, Turkish Aerospace Industries
-  from: 2020
-  to: 2020
-  description: I completed my bachelor's degree in Computer Science from the National University of Sciences and Technology (NUST) in Pakistan. 
-              This academic journey marked the beginning of my deep dive into the expansive world of computing. It was here that I developed a keen interest in a variety of fields such as computer vision, databases, and software engineering. This program not only provided me with a solid foundation
-               in theoretical concepts but also equipped me with practical skills and knowledge, setting the stage for my 
-               future endeavors in the dynamic and ever-evolving field of computer science.
-
-
-
-- title: Data Scientist Intern, Neurog
-  from: 2022
-  to: 2022
-  description: From January 2022 to March 2022, I spearheaded a comprehensive analysis of the social media impact on Non-Fungible Tokens (NFTs), 
-              revealing pivotal correlations between online activities and trends in the NFT market. This crucial discovery offered
-               stakeholders vital insights, aiding them in strategizing their investments and effectively capitalizing on market
-                fluctuations. To support this analysis, I engineered sophisticated data wrangling tools that automated the collection 
-                of social media data, thereby boosting data acquisition and management efficiency by 16%. Furthermore, I revolutionized our data 
-                storage and retrieval processes by implementing an automated pipeline. This system efficiently consolidated social media data into 
-                MongoDB, leading to a substantial 60% increase in storage efficiency.This enhancement not only improved query performance but also significantly optimized overall business operations.
+- title: Machine Learning Engineer, Huawei
+  from: May 2023
+  to: Aug 2023
+  description: From May through August, I dedicated my efforts to developing an innovative audio anonymization
+               solution tailored for automotive clients. This project culminated in the creation of a Java-based
+               lightweight application designed to strip voices of any personally identifiable characteristics. 
+               By altering voice signatures to sound unrecognizable, the application significantly enhances privacy, 
+               addressing the vulnerability of in-car communications. In vehicles, where phone calls and meetings are 
+               often at risk of interception by attackers, this solution plays a crucial role in safeguarding confidential 
+               information. For a more detailed exploration of this project, please refer to my blog.
 
 - title: Data Scientist, Aceso Analytics
-  from: 2022
-  to: 2023
-  description: From Feb 2022 to April 2023, I played a leading role in the machine learning team, focusing on the development of an on-device
+  from: Feb 2022
+  to: April 2023
+  description: I played a leading role in the machine learning team, focusing on the development of an on-device
                spatial audio recognition system. This innovative system boasts an impressive 91% accuracy rate in detecting human activities,
               which has notably improved emergency response times by 40%. A key part of my work involved automating data processing pipelines.
                This was critical for managing the large influx of device payload data in CosmosDB. My approach ensured the availability of
@@ -70,13 +36,51 @@
               I streamlined MLOps pipelines and was involved in transmitting detailed analyses. 
               These analyses covered a wide spectrum of information, from triggered events and user activities to live insights, which were prominently displayed on Grafana Dashboards.
 
-- title: Machine Learning Engineer, Huawei
-  from: 2023
-  to: 2023
-  description: From May through August, I dedicated my efforts to developing an innovative audio anonymization
-               solution tailored for automotive clients. This project culminated in the creation of a Java-based
-               lightweight application designed to strip voices of any personally identifiable characteristics. 
-               By altering voice signatures to sound unrecognizable, the application significantly enhances privacy, 
-               addressing the vulnerability of in-car communications. In vehicles, where phone calls and meetings are 
-               often at risk of interception by attackers, this solution plays a crucial role in safeguarding confidential 
-               information. For a more detailed exploration of this project, please refer to my blog.
+- title: Data Scientist Intern, Neurog
+  from: Jan 2022
+  to: March 2022
+  description: From January 2022 to March 2022, I spearheaded a comprehensive analysis of the social media impact on Non-Fungible Tokens (NFTs), 
+              revealing pivotal correlations between online activities and trends in the NFT market. This crucial discovery offered
+               stakeholders vital insights, aiding them in strategizing their investments and effectively capitalizing on market
+                fluctuations. To support this analysis, I engineered sophisticated data wrangling tools that automated the collection 
+                of social media data, thereby boosting data acquisition and management efficiency by 16%. Furthermore, I revolutionized our data 
+                storage and retrieval processes by implementing an automated pipeline. This system efficiently consolidated social media data into 
+                MongoDB, leading to a substantial 60% increase in storage efficiency.This enhancement not only improved query performance but also significantly optimized overall business operations.
+
+- title: Bachelors's Student, National University of Science and Technology
+  from: Sept 2017
+  to: June 2021
+  description: I completed my bachelor's degree in Computer Science from the National University of Sciences and Technology (NUST) in Pakistan. 
+              This academic journey marked the beginning of my deep dive into the expansive world of computing. It was here that I developed a keen interest in a variety of fields such as computer vision, databases, and software engineering. This program not only provided me with a solid foundation
+               in theoretical concepts but also equipped me with practical skills and knowledge, setting the stage for my 
+               future endeavors in the dynamic and ever-evolving field of computer science.
+
+- title: Software Engineer Intern, Turkish Aerospace Industries
+  from: Aug 2020
+  to: Sept 2020
+  description: I completed my bachelor's degree in Computer Science from the National University of Sciences and Technology (NUST) in Pakistan. 
+              This academic journey marked the beginning of my deep dive into the expansive world of computing. It was here that I developed a keen interest in a variety of fields such as computer vision, databases, and software engineering. This program not only provided me with a solid foundation
+               in theoretical concepts but also equipped me with practical skills and knowledge, setting the stage for my 
+               future endeavors in the dynamic and ever-evolving field of computer science.
+
+- title: Data Engineer Intern, Telenor
+  from: June 2020
+  to: Aug 2020
+  description: Utilized Tableau to visualize and interpret mobile network gateway data, uncovering usage patterns related to package activation timing. 
+              This analysis drove the optimization of network packages, resulting in a 1.5% revenue increase for the company in July 2020. 
+              Designed an automated solution that visualizes overlapping processing units at gateways,resulting in a remarkable 32% improvement in work efficiency, 
+              enabling the immediate detection of congested networks and facilitating resource reallocation to enhance operational effectiveness and overall performance
+
+- title: Robotics Engineer Intern, RISE Lab
+  from: Dec 2018
+  to: July 2019
+  description: I completed my bachelor's degree in Computer Science from the National University of Sciences and Technology (NUST) in Pakistan. 
+              This academic journey marked the beginning of my deep dive into the expansive world of computing. It was here that I developed a keen interest in a variety of fields such as computer vision, databases, and software engineering. This program not only provided me with a solid foundation
+               in theoretical concepts but also equipped me with practical skills and knowledge, setting the stage for my 
+               future endeavors in the dynamic and ever-evolving field of computer science.
+
+
+
+
+
+
