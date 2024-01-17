@@ -1,0 +1,14 @@
+background-color: transparent;
+border: none;
+cursor: pointer;
+font-size: 16px;
+}
+
+.see-more-btn::after {
+content: ' ↓'; /* Default is down arrow */
+font-size: 16px;
+}
+
+.see-more-btn.expanded::after {
+content: ' ↑'; /* Up arrow when expanded */
+}

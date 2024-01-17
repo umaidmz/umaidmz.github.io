@@ -49,7 +49,9 @@ document.addEventListener("DOMContentLoaded", function() {
   document.querySelectorAll('.see-more-btn').forEach(function(button) {
     button.addEventListener('click', function() {
       var description = this.previousElementSibling;
-      description.style.display = description.style.display === 'none' ? 'block' : 'none';
+      var isExpanded = description.style.display === 'block';
+      description.style.display = isExpanded ? 'none' : 'block';
+      this.textContent = isExpanded ? 'See More' : 'See Less';
     });
   });
 });
