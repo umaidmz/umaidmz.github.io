@@ -1,7 +1,7 @@
 ---
 name: Canada Housing Crises Analysis and Forecasting
 tools: [Python]
-image: /assets/images/bitcoin.jpg
+image: /assets/images/hpi.png
 description: This project analyzes Canada’s housing crisis, merging StatCan, CPI HPI, and Energy Prices data. Additional, in this I conducted advanced time series analysis (AR modeling, Seasonal Decomposition), enhancing forecasting accuracy with Self Attention techniques, demonstrating data integration and innovative analytical expertise
 ---
 
@@ -17,3 +17,9 @@ Furthermore, the paper conducts a deep-dive into the unique characteristics of C
 
 In summary, this survey paper acts as an educational tool and reference guide tailored to
 those interested in analyzing HPI, CPI, and energy price time series data speciﬁc to Canada. By combining foundational time series analysis principles with real-world insights into the Canadian economy, we endeavor to equip readers with the knowledge and tools needed to navigate the dynamic realm of Canadian housing price analysis.
+
+<div>
+    <h2>PDF Preview</h2>
+    <iframe src="/assets/files/Canada_HPI.pdf" width="600" height="400" style="border: none;"></iframe>
+    <p><a href="/assets/files/Canada_HPI.pdf" download="YourFileName.pdf">Download PDF</a></p>
+</div>
