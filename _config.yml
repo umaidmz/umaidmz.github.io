@@ -26,7 +26,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Umaid Zaffar
-  image             : /assets/DP.jpg
+  image             : https://umaidmz.github.io/assets/DP.jpg
   # behance           : your_username
 # dribbble          : your_username
   email             : umaidmz@gmail.com
