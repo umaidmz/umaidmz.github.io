@@ -1,20 +1,7 @@
 ---
-name: The Movies Project
-tools: [C#, XML, WPF]
+name: Refining the Bitcoin
+tools: [Python, Apache Spark, Pyspark]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+description: This project uses Apache Spark to download and mine data from the Bitcoin core using bitcoinlib library in Python. Then this will structure the data required to make machine learning models.
+external_url: https://github.com/umaidmz/BTC-BlockParser-Spark
 ---
-
-# The Movies Project
-
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
-
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
-
-## Search Movies
-
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
-
-<p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
-</p>
