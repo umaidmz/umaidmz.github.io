@@ -1,17 +1,21 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Student, Univeristy of Waterloo - Data Science and AI
+  from: 2021
+  to: 2023
+  description: I hold a professional degree characterized by a rigorous curriculum encompassing a wide range of subjects including machine learning,
+               deep learning, statistics, data visualizations, exploratory data analysis, and big data. In addition to the theoretical knowledge, 
+               the program also included a cooperative education component, allowing for practical, hands-on experience.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+               During this co-op segment, I had the opportunity to work at Huawei Technologies Co., where I was engaged as a Machine Learning Engineer.
+              This role provided me with invaluable real-world experience and a deeper understanding of the practical applications of machine learning 
+              in the tech industry. More details about my experiences and contributions at Huawei can be found in the following section..
+
+- title: Machine Learning Engineer - Huawei Technologies Co., Waterloo, Canada
+  from: 2023
+  to: 2023
+  description: From May through August, I dedicated my efforts to developing an innovative audio anonymization
+               solution tailored for automotive clients. This project culminated in the creation of a Java-based
+               lightweight application designed to strip voices of any personally identifiable characteristics. 
+               By altering voice signatures to sound unrecognizable, the application significantly enhances privacy, 
+               addressing the vulnerability of in-car communications. In vehicles, where phone calls and meetings are 
+               often at risk of interception by attackers, this solution plays a crucial role in safeguarding confidential 
+               information. For a more detailed exploration of this project, please refer to my blog.
