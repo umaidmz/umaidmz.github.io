@@ -1,7 +1,7 @@
 ---
 name: Audio Based Emotion Recognition and Analysis
 tools: [R, R Studio]
-image: /assets/speech.png
+image: /assets/images/speech.png
 description: Speech emotion recognition project using CREMA-D dataset. 
 ---
 <h2>Audio Based Emotion Recognition and Analysis </h2>
