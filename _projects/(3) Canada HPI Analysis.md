@@ -2,7 +2,7 @@
 name: Canada Housing Crises Analysis and Forecasting
 tools: [Python, Plotly, Statistical Models, Time]
 image: /assets/images/hpi.png
-description: This project analyzes Canada’s housing crisis, merging StatCan, CPI HPI, and Energy Prices data. Additional, in this I conducted advanced time series analysis (AR modeling, Seasonal Decomposition), enhancing forecasting accuracy with Self Attention techniques, demonstrating data integration and innovative analytical expertise
+description: This project analyzes Canada’s housing crisis, merging StatCan, CPI HPI, and Energy Prices data to conduct advanced time series analysis.
 ---
 
 <h2>Canada Housing Crises Analysis and Forecasting</h2>
