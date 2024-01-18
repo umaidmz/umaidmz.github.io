@@ -1,7 +1,7 @@
 ---
 name: Sketchinator
 tools: [Python, Flask, React Native, Deep Learning]
-image: /assets/images/skeych.png
+image: /assets/images/sketch.png
 description: Developed an intelligent mobile application using deep learning techniques, utilizing transfer learning and dimensionality reduction. The dataset used is TU-Berlin Dataset.
 ---
 
@@ -11,7 +11,7 @@ This Smart Sketch Application was developed as part of an initiative to help chi
 
 <div>
     <h3>Demonstration</h3>
-    <video width="320" height="640" controls>
+    <video width="400" height="800" controls>
         <source src="/assets/videos/sketch.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
