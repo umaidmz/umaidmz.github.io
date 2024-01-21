@@ -5,7 +5,7 @@ style: fill
 color: info
 description: Today I formally started putting my heart and mind together to control my life and set milestones for myself.
 ---
-<div style="width: 100%; height: auto; background-color: #f8f8f8; text-align: center; padding: 20px 0;">
+<div style="width: 100%; height: auto; background-color: #f8f8f8; text-align: center;">
   <img src="/assets/post_images/UW_Umaid.jpg" alt="Banner Image" style="max-width: 100%; height: auto;">
 </div>
 
