@@ -1,5 +1,5 @@
 ---
-title: Day 1 of Job Hunting in 2024
+title: Day 101 of Job Hunting in 2024
 tags: [Job Hunting, Data Science, Machine Learning]
 style: fill
 color: info
