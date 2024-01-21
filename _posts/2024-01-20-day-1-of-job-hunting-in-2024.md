@@ -1,6 +1,6 @@
 ---
-title: Day 101 of Job Hunting in 2024
-tags: [Job Hunting, Data Science, Machine Learning]
+title: Day 101 of Job Hunting
+tags: [Job Hunting, Data Science, Machine Learning, 2024]
 style: fill
 color: info
 description: Today I formally started putting my heart and mind together to control my life and set milestones for myself.
