@@ -20,8 +20,19 @@ Looking back at this one day, I hope to remember these moments as pivotal in sha
 
 ## Job Applications
 
-I am gonna skip the boring talk and tell you that I woke up at 7:30 AM today and swiftly made myself breakfast and got ready to get my resume across those portals. All in all I applied to approximately 30 jobs today ranging from machine learning, data scientist, data engineer and data analyst. At about 1 PM, I logged off from job application to take a breath and talk to family.
+Today, I bypassed the usual morning routine and dove straight into job applications. By 7:30 AM, I was up, breakfasted, and ready to tackle the challenge head-on. My focus was razor-sharp as I navigated through various job portals, submitting my resume to around 30 positions. My targets were diverse yet specific to my expertise – roles in machine learning, data science, data engineering, and data analysis.
+
+By 1 PM, after a morning of intense focus and dedication, I took a well-deserved break. It was time to step away from the applications, recharge, and catch up with family. This brief interlude was as much about maintaining balance as it was about reflecting on the productive morning.
 
 ## Interview Preparation
 
 Having been through Coop, then adjusting in a new place, getting married and in the midst of job hunting, I became very rusty with my ML. I decided to go through a book which I always carry around in my laptop: Hands-on ML with Scikit Learn, Keras and TF. Now that I went through Chapter 2: End-to-end ML predictive model, I realize that feature engineering is more important in the industry than just deep learning (I was a neural net only kind of guy who though these ML models will go no where). The industry is still yet to adopt these GPU intensive models in production. These are things that I learnt today:
+
+- Stratified Train Test Splt: Split the train and test set while making sure that the ration of samples based on a specific category is the same to prevent bias.
+
+```
+from sklearn.model_selection import StratifiedShuffleSplit
+split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42) for train_index, test_index in split.split(housing, housing["income_cat"]):
+        strat_train_set = housing.loc[train_index]
+        strat_test_set = housing.loc[test_index]
+```
