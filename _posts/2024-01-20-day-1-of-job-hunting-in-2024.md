@@ -5,6 +5,9 @@ style: fill
 color: info
 description: Today I formally started putting my heart and mind together to control my life and set milestones for myself.
 ---
+<div style="width: 100%; height: auto; background-color: #f8f8f8; text-align: center; padding: 20px 0;">
+  <img src="/assets/images/biometric.jpg" alt="Banner Image" style="max-width: 100%; height: auto;">
+</div>
 
 A few weeks ago, I graduated from the University of Waterloo with an MS Degree in Data Science and Artificial Intelligence. Before graduation, I was confident in my qualifications and abilities, anticipating a swift transition into a full-time Data Scientist role. However, the reality of the job market proved to be a humbling experience.
 
