@@ -1,12 +1,12 @@
 ---
-title: Day 1 of Job Hunting for Data Science roles
+title: Day 1 of Job Hunting in 2024
 tags: [Job Hunting, Data Science, Machine Learning]
 style: fill
 color: info
 description: Today I formally started putting my heart and mind together to control my life and set milestones for myself.
 ---
 <div style="width: 100%; height: auto; background-color: #f8f8f8; text-align: center; padding: 20px 0;">
-  <img src="/assets/images/biometric.jpg" alt="Banner Image" style="max-width: 100%; height: auto;">
+  <img src="/assets/post_images/UW_Umaid.jpg" alt="Banner Image" style="max-width: 100%; height: auto;">
 </div>
 
 A few weeks ago, I graduated from the University of Waterloo with an MS Degree in Data Science and Artificial Intelligence. Before graduation, I was confident in my qualifications and abilities, anticipating a swift transition into a full-time Data Scientist role. However, the reality of the job market proved to be a humbling experience.
@@ -39,18 +39,17 @@ One key realization is that the industry hasn't fully embraced GPU-intensive mod
 
 ```
 from sklearn.model_selection import StratifiedShuffleSplit
-split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42) for train_index, test_index in split.split(housing, housing["income_cat"]):
-        strat_train_set = housing.loc[train_index]
-        strat_test_set = housing.loc[test_index]
+    split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42) for train_index, test_index in split.split(housing, housing["income_cat"]):
+    strat_train_set = housing.loc[train_index]
+    strat_test_set = housing.loc[test_index]
 ```
 
 - Finding Correlations and Joining Attributes
 
 ```
 from pandas.plotting import scatter_matrix
-    attributes = ["median_house_value", "median_income", "total_rooms",
-                  "housing_median_age"]
-    scatter_matrix(housing[attributes], figsize=(12, 8))
+attributes = ["median_house_value", "median_income", "total_rooms","housing_median_age"]
+scatter_matrix(housing[attributes], figsize=(12, 8))
 ```
 
 - Handle text and categorical data with One-Hot Encoder
@@ -60,17 +59,19 @@ from pandas.plotting import scatter_matrix
 from sklearn.base import BaseEstimator, TransformerMixin
     rooms_ix, bedrooms_ix, population_ix, households_ix = 3, 4, 5, 6
 class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
-def __init__(self, add_bedrooms_per_room = True): # no *args or **kargs
-self.add_bedrooms_per_room = add_bedrooms_per_room def fit(self, X, y=None):
-return self # nothing else to do def transform(self, X, y=None):
-rooms_per_household = X[:, rooms_ix] / X[:, households_ix] population_per_household = X[:, population_ix] / X[:, households_ix] if self.add_bedrooms_per_room:
-bedrooms_per_room = X[:, bedrooms_ix] / X[:, rooms_ix]
-return np.c_[X, rooms_per_household, population_per_household,
-bedrooms_per_room]
-return np.c_[X, rooms_per_household, population_per_household]
-else:
-attr_adder = CombinedAttributesAdder(add_bedrooms_per_room=False)
-    housing_extra_attribs = attr_adder.transform(housing.values)
+    def __init__(self, add_bedrooms_per_room = True): # no *args or **kargs
+        self.add_bedrooms_per_room = add_bedrooms_per_room def fit(self, X, y=None):
+        return self # nothing else to do 
+
+    def transform(self, X, y=None):
+        rooms_per_household = X[:, rooms_ix] / X[:, households_ix] population_per_household = X[:, population_ix] / X[:, households_ix] if self.add_bedrooms_per_room:
+        bedrooms_per_room = X[:, bedrooms_ix] / X[:, rooms_ix]
+        return np.c_[X, rooms_per_household, population_per_household,
+        bedrooms_per_room]
+        return np.c_[X, rooms_per_household, population_per_household]
+        else:
+        attr_adder = CombinedAttributesAdder(add_bedrooms_per_room=False)
+            housing_extra_attribs = attr_adder.transform(housing.values)
 ```
 
 - Use tranformation pipelines and feature scaling for numerical data
@@ -87,7 +88,8 @@ from sklearn.preprocessing import StandardScaler
 
 - Try multiple models and use cross validation to make sure theya re not overfitting
 
-```from sklearn.model_selection import cross_val_score
+```
+from sklearn.model_selection import cross_val_score
 scores = cross_val_score(tree_reg, housing_prepared, housing_labels,
                              scoring="neg_mean_squared_error", cv=10)
     tree_rmse_scores = np.sqrt(-scores)
@@ -97,15 +99,15 @@ scores = cross_val_score(tree_reg, housing_prepared, housing_labels,
 
 ```
 from sklearn.model_selection import GridSearchCV
-    param_grid = [
-        {'n_estimators': [3, 10, 30], 'max_features': [2, 4, 6, 8]},
-        {'bootstrap': [False], 'n_estimators': [3, 10], 'max_features': [2, 3, 4]},
+param_grid = [
+    {'n_estimators': [3, 10, 30], 'max_features': [2, 4, 6, 8]},
+    {'bootstrap': [False], 'n_estimators': [3, 10], 'max_features': [2, 3, 4]},
 ]
-    forest_reg = RandomForestRegressor()
-    grid_search = GridSearchCV(forest_reg, param_grid, cv=5,
-                               scoring='neg_mean_squared_error',
-                               return_train_score=True)
-    grid_search.fit(housing_prepared, housing_labels)
+forest_reg = RandomForestRegressor()
+grid_search = GridSearchCV(forest_reg, param_grid, cv=5,
+                            scoring='neg_mean_squared_error',
+                            return_train_score=True)
+grid_search.fit(housing_prepared, housing_labels)
 ```
 
 ## Self-Learning
