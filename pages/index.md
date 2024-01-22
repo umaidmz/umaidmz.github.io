@@ -19,7 +19,7 @@ permalink: /
 
 {% capture list_items %}
 {% for post in site.posts limit:5 %}
-         {{ post.date | date_to_long_string }}: {{ post.title }}, {{ post.url | prepend: site.baseurl }}
+         {{ post.date | date_to_long_string }}: {{ post.title }}{% unless forloop.last %}{% endunless %}, {{ post.url | prepend: site.baseurl }}
 {% endfor %}
 {% endcapture %} 
-{% include elements/list.html title="Recent Posts" size="sm" color="secondary" | strip_newlines %}
+{% include elements/list.html title="Recent Posts" size="sm" color="secondary" %}
