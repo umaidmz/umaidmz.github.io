@@ -25,4 +25,4 @@ Google,https://www.google.com
 GitHub,https://www.github.com
 {% endcapture %} 
 
-{% include elements/list.html title="Table of Contents" type="toc" size="sm"%}
+{% include elements/list.html title="Table of Contents" size="sm"%}
