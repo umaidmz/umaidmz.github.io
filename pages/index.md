@@ -15,3 +15,11 @@ permalink: /
     {% endfor %}
   </ul>
 </div>
+
+
+{% capture list_items %}
+{% for post in site.posts limit:5 %}
+        {{post.date}}: {{ post.title }}, {{ post.url | prepend: site.baseurl }}
+{% endfor %}
+{% endcapture %}
+{% include elements/list.html title="Table of Contents" type="toc" %}
