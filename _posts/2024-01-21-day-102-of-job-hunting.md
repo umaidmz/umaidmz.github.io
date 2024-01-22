@@ -1,8 +1,8 @@
 ---
 title: Day 102 of Job Hunting
 tags: [Job Hunting, Data Science, Machine Learning]
-style: border
-color: info
+style: fill
+color: primary
 description: Another day of grinding for a job
 ---
 
