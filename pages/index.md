@@ -13,7 +13,7 @@ permalink: /
    <ul>
   {% for post in site.posts limit:5 %}
         <li>
-        <a href="{{ post.url | prepend: site.baseurl }}">
+        <a href="{{ post.url | prepend: site.baseurl }}" style="margin-top: 1em;">
          {{ post.title }}</a>
         </li> 
 {% endfor %}
