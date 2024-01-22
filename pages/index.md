@@ -22,4 +22,5 @@ permalink: /
          {{ post.date | date_to_long_string }}: {{ post.title }}, {{ post.url | prepend: site.baseurl }}
 {% endfor %}
 {% endcapture %} 
+{{ list_items | strip_newlines }}
 {% include elements/list.html title="Recent Posts" size="sm" type="block" %}
