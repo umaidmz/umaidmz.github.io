@@ -8,14 +8,12 @@ permalink: /
 <div style="margin-left: 2in;">
     ---
   <h4>Recent Posts</h4>
-  <ul>
     {% for post in site.posts limit:5 %}
     ---
-      <li>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date_to_long_string }}: {{ post.title }}</a>
-      </li>
+      
+    > <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date_to_long_string }}: {{ post.title }}</a>
+      
     {% endfor %}
-  </ul>
     ---
 </div>
 
