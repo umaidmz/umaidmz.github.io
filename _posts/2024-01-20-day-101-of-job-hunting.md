@@ -37,7 +37,7 @@ One key realization is that the industry hasn't fully embraced GPU-intensive mod
 
 - Stratified Train Test Splt
 
-```
+```python
 from sklearn.model_selection import StratifiedShuffleSplit
     split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42) for train_index, test_index in split.split(housing, housing["income_cat"]):
     strat_train_set = housing.loc[train_index]
@@ -46,7 +46,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 
 - Finding Correlations and Joining Attributes
 
-```
+```python
 from pandas.plotting import scatter_matrix
 attributes = ["median_house_value", "median_income", "total_rooms","housing_median_age"]
 scatter_matrix(housing[attributes], figsize=(12, 8))
@@ -55,7 +55,7 @@ scatter_matrix(housing[attributes], figsize=(12, 8))
 - Handle text and categorical data with One-Hot Encoder
 - Use custom Transformers in Scikit Learn
 
-```
+```python
 from sklearn.base import BaseEstimator, TransformerMixin
     rooms_ix, bedrooms_ix, population_ix, households_ix = 3, 4, 5, 6
 class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
@@ -75,7 +75,7 @@ class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
 ```
 
 - Use tranformation pipelines and feature scaling for numerical data
-```
+```python
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
     num_pipeline = Pipeline([
@@ -88,7 +88,7 @@ from sklearn.preprocessing import StandardScaler
 
 - Try multiple models and use cross validation to make sure theya re not overfitting
 
-```
+```python
 from sklearn.model_selection import cross_val_score
 scores = cross_val_score(tree_reg, housing_prepared, housing_labels,
                              scoring="neg_mean_squared_error", cv=10)
@@ -97,7 +97,7 @@ scores = cross_val_score(tree_reg, housing_prepared, housing_labels,
 
 - Use Grid Search or Randimzed Search to finetune models
 
-```
+```python
 from sklearn.model_selection import GridSearchCV
 param_grid = [
     {'n_estimators': [3, 10, 30], 'max_features': [2, 4, 6, 8]},
