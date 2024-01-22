@@ -29,3 +29,6 @@ Furthering my day's educational journey, I turned to Chapter 3 of 'Hands-On Mach
 4. Approaches to tackle Multi-Class, Multi-Label, and Multi-Output problems using both binary and non-binary models.
 
 While much of this material revisited my previous work, it reinforced my understanding and offered fresh perspectives on these fundamental data science concepts.
+
+
+**Update**: Spent too much time fixing the recent post feature on front page.
