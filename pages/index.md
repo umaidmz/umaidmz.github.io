@@ -5,16 +5,19 @@ permalink: /
 
 {% include landing.html %}
 
-<div style="margin-left: 2in;">
+<div style="margin-top: 3in; margin-right: 2in; margin-left: 2in;">
   <h4>Recent Posts</h4>
   {% for post in site.posts limit:5 %}
     <hr>
-    <blockquote>
-      {{ post.date | date_to_long_string }}: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </blockquote>
+    <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none; color: inherit;">
+      <blockquote style="margin: 0;">
+        {{ post.date | date_to_long_string }}: {{ post.title }}
+      </blockquote>
+    </a>
   {% endfor %}
   <hr>
 </div>
+
 
 #### Recent Posts
 {% for post in site.posts limit:5 %}
