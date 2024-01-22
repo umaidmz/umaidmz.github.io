@@ -23,8 +23,9 @@ His insights on resume building were particularly enlightening – emphasizing t
 
 Furthering my day's educational journey, I turned to Chapter 3 of 'Hands-On Machine Learning with Scikit-Learn'. Despite covering familiar ground, the chapter served as a valuable refresher on several key concepts:
 
-The significance of precision/recall curves in skewed datasets and understanding their trade-offs.
-Interpreting ROC curves and their associated Area Under the Curve (AUC) for model evaluation.
-The utility of Confusion Matrices and Error Analysis in improving model accuracy.
-Approaches to tackle Multi-Class, Multi-Label, and Multi-Output problems using both binary and non-binary models.
+1. The significance of precision/recall curves in skewed datasets and understanding their trade-offs.
+2. Interpreting ROC curves and their associated Area Under the Curve (AUC) for model evaluation.
+3. The utility of Confusion Matrices and Error Analysis in improving model accuracy.
+4. Approaches to tackle Multi-Class, Multi-Label, and Multi-Output problems using both binary and non-binary models.
+
 While much of this material revisited my previous work, it reinforced my understanding and offered fresh perspectives on these fundamental data science concepts.
