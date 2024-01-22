@@ -12,12 +12,12 @@ permalink: /
   <h4>Recent Posts</h4>
   {% for post in site.posts limit:5 %}
     <hr>
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      <blockquote>
-        {{ post.date | date_to_long_string }}: {{ post.title }}
-      </blockquote>
-    </a>
-  {% endfor %}
+    <ul>
+        <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+         {{ post.title }}</a>
+        </li>
+{% endfor %}
   <hr>
 </div>
 
