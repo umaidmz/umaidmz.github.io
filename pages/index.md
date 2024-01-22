@@ -18,11 +18,8 @@ permalink: /
 
 
 {% capture list_items %}
-<!-- {% for post in site.posts limit:5 %}
-        {{post.date}}: {{ post.title }}, {{ post.url | prepend: site.baseurl }}
-{% endfor %}-->
-Google,https://www.google.com
-GitHub,https://www.github.com
+{% for post in site.posts limit:5 %}
+         {{ post.date | date_to_long_string }}: {{ post.title }}, {{ post.url | prepend: site.baseurl }}
+{% endfor %}
 {% endcapture %} 
-
-{% include elements/list.html title="Table of Contents" size="sm"%}
+{% include elements/list.html title="Recent Posts" size="sm" type="block" %}
