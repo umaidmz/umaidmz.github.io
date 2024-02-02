@@ -6,8 +6,6 @@ color: light
 description: Notes on Logistic Regression for interviews
 ---
 
-
-
 ## Logistic Regression
 
 - Does not have a closed form solution to directly calculate the loss function.
