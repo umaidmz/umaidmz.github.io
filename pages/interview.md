@@ -7,4 +7,4 @@ weight: 3
 
 ### Thanks to Wein and Pooja
 
-A special thanks to Wein and Pooja for the amazing interview experience. I hope
+A special thanks to Wein and Pooja for the amazing interview experience. 
