@@ -5,6 +5,6 @@ permalink: /interview/
 weight: 3
 ---
 
-### Thanks to Wein and Pooja
+# *A Special Thanks*
 
-A special thanks to Wein and Pooja for the amazing interview experience. 
+I want to give a special thanks to Wein Chien and Pooja Bandal for the amazing interview process and giving me the opportunity to talk about my expertise in detail.
